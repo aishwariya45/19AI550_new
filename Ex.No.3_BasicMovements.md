@@ -1,6 +1,6 @@
 # Ex.No: 3  Basic movements in Unity 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:  23-10-2026                                                                          
+### REGISTER NUMBER : 212224240005
 ### AIM: 
  To learn the basic movements translation,scaling and rotation of game objects through code.
 ### Procedure:
@@ -16,7 +16,7 @@
 10. Run the Scene Press Play ▶️ in Unity
 11. Stop the program.
 ### Program 
-```
+```c#
 using UnityEngine;
 public class TransformOperations : MonoBehaviour
 {
@@ -42,7 +42,7 @@ public class TransformOperations : MonoBehaviour
         if (object2 != null)
         {
             //object2.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
-            //object2.Rotate(0,0.02f.0);
+            object2.Rotate(0,0.02f.0);
         }
 
         // Scale object3 up and down
@@ -59,6 +59,7 @@ public class TransformOperations : MonoBehaviour
 ### Output:
 
 
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/84aee92c-6c56-47b6-b415-584449c299c1" />
 
 
 
